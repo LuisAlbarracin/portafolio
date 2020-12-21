@@ -6,6 +6,18 @@ body {
 header,
 footer {
   background-color: mediumseagreen;
+  margin-bottom: 10px;
+}
+
+img{
+  height: 300;
+  width: 200px;
+  margin: 2px ;
+  border: 2px solid black;
+}
+
+.container{
+  padding-bottom: 5px;
 }
 
 .contenedor {
