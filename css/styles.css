@@ -1,19 +1,28 @@
-body{
-    background: rgb(238, 235, 235);
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(238, 235, 235);
 }
 
-
-.certificado{
-    padding: 5px;
-    border: 5px solid black;
+header,
+footer {
+  background-color: mediumseagreen;
 }
 
+.contenedor {
+  padding: 20px;
+}
 
-.enlaces{
+.certificado {
+  border: 5px solid black;
+}
+
+.enlaces {
+  color: black;
   display: flex;
   justify-content: space-around;
 }
 
-#enlace{
-  word-spacing: 10px;
+#enlace:hover {
+  color: black;
+  font-size: 120%;
 }
