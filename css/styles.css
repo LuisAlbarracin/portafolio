@@ -3,10 +3,13 @@ body {
   background: rgb(238, 235, 235);
 }
 
-header,
-footer {
-  background-color: mediumseagreen;
-  margin-bottom: 10px;
+header{
+  padding-top: 20px;
+  height: 100px;
+}
+
+h1{
+  text-align: center;
 }
 
 img{
@@ -38,3 +41,18 @@ img{
   color: black;
   font-size: 120%;
 }
+
+a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style: none;
+}
+
+#foto{
+  width: 100%;
+}
+
