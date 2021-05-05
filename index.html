@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Luis Vicente Albarracin</title>
   </head>
   <body>
-    <header>
-      <div>
+    <header class="header">
+      <div class="header-h1">
         <h1>LUIS VICENTE ALBARRACIN</h1>
       </div>
-      <div>
+      <div class="header-items">
         <ul>
           <li>Perfil</li>
           <li>Proyectos</li>
+          <li>Certificados</li>
         </ul>
       </div>
     </header>
-    <main>
-      <section>
+    <main class="main">
+      <section class="main-perfil">
         <h2>PERFIL</h2>
         <article>
           <p>
@@ -28,15 +30,42 @@
           </p>
         </article>
       </section>
-      <section>
+
+      <section class="main-proyectos">
         <h2>PROYECTOS</h2>
-        <div>
-          <figure>
-            <img src="" alt="">
-            <figcaption></figcaption>
+        <ul>
+          <li>Libro Campo</li>
+          <li>Hoja de Vida Publica</li>
+          <li>Juego Simon Dice</li>
+          <li>Juego en Mozilla Firefox</li>
+        </ul>
+      </section>
+
+      <section class="">
+        <h2>CERTIFICACIONES</h2>
+        <div class="main-certificaciones">
+          <figure class="main-certificaciones__figure">
+            <img src="/certificaciones/ingenieria_software.png" alt="Certificado del Curso de ingeniería de software">
+            <figcaption>CERTIFICADO DE FUNDAMENTOS DE INGENIERÍA DE SOFTWARE - En Platzi</figcaption>
+          </figure>
+          
+          <figure class="main-certificaciones__figure">
+            <img src="/certificaciones/seguridad_cibernetica.png" alt="Certificado de Introducción a la Seguridad Cibernética">
+            <figcaption>CERTIFICADO DE INTRODUCCIÓN A LA SEGURIDAD CIBERNÉTICA - En Cisco Networking Academy</figcaption>
+          </figure>
+
+          <figure class="main-certificaciones__figure">
+            <img src="/certificaciones/cert-js.jpg" alt="Certificado en el Curso de JavaScript">
+            <figcaption>CERTIFICADO DE JAVASCRIPT - En Sololearn</figcaption>
+          </figure>
+
+          <figure class="main-certificaciones__figure">
+            <img src="/certificaciones/cert-css.jpg" alt="Certificado en el Curso de Css">
+            <figcaption>CERTIFICADO DE CSS - En Sololearn</figcaption>
           </figure>
         </div>
       </section>
+
     </main>
     <footer></footer>
   </body>
