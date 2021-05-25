@@ -4,26 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Luis Vicente Albarracin</title>
   </head>
-  <body>
-    <header class="header">
-      <div class="header-h1">
-        <h1>LUIS VICENTE ALBARRACIN</h1>
-      </div>
-      <div class="header-items">
-        <ul>
+  <body class="bg-gray-100">
+    <header class="container bg-gray-400 mx-auto p-4 grid grid-cols-1 sm:grid-cols-2">
+        <h1 class="text-center">LUIS VICENTE ALBARRACIN</h1>
+        <ul class="grid grid-cols-3">
           <li>Perfil</li>
           <li>Proyectos</li>
           <li>Certificados</li>
         </ul>
-      </div>
     </header>
-    <main class="main">
-      <section class="main-perfil">
-        <h2>PERFIL</h2>
-        <article>
+    <main class="container mx-auto px-4">
+      <section class="container mx-auto px-4">
+        <h2 class="text-center p-4">Perfil</h2>
+        <article class="text-center">
           <p>
             Soy Luis Vicente Albarracin. Estudiante de Ingeniería de Sistemas en
             la Universidad Francisco de Paula Santander.
@@ -31,9 +27,9 @@
         </article>
       </section>
 
-      <section class="main-proyectos">
-        <h2>PROYECTOS</h2>
-        <ul>
+      <section class="container mx-auto px-4">
+        <h2 class="text-center p-4">Proyectos</h2>
+        <ul class="grid grid-cols-2 sm:grid-cols-4">
           <li>Libro Campo</li>
           <li>Hoja de Vida Publica</li>
           <li>Juego Simon Dice</li>
@@ -41,32 +37,34 @@
         </ul>
       </section>
 
-      <section class="">
-        <h2>CERTIFICACIONES</h2>
-        <div class="main-certificaciones">
-          <figure class="main-certificaciones__figure">
-            <img src="/certificaciones/ingenieria_software.png" alt="Certificado del Curso de ingeniería de software">
-            <figcaption>CERTIFICADO DE FUNDAMENTOS DE INGENIERÍA DE SOFTWARE - En Platzi</figcaption>
-          </figure>
-          
-          <figure class="main-certificaciones__figure">
-            <img src="/certificaciones/seguridad_cibernetica.png" alt="Certificado de Introducción a la Seguridad Cibernética">
-            <figcaption>CERTIFICADO DE INTRODUCCIÓN A LA SEGURIDAD CIBERNÉTICA - En Cisco Networking Academy</figcaption>
+      <section class="container mx-auto px-4">
+        <h2 class="text-center p-4">Certificaciones</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <figure class="flex flex-col">
+            <img src="/certificaciones/ingenieria_software.png" alt="Certificado del Curso de ingeniería de software" class="rounded-xl">
+            <figcaption class="text-center">CERTIFICADO DE FUNDAMENTOS DE INGENIERÍA DE SOFTWARE - En Platzi</figcaption>
           </figure>
 
-          <figure class="main-certificaciones__figure">
-            <img src="/certificaciones/cert-js.jpg" alt="Certificado en el Curso de JavaScript">
-            <figcaption>CERTIFICADO DE JAVASCRIPT - En Sololearn</figcaption>
+          <figure class="flex flex-col">
+            <img src="/certificaciones/seguridad_cibernetica.png" alt="Certificado de Introducción a la Seguridad Cibernética" class="rounded-xl">
+            <figcaption class="text-center">CERTIFICADO DE INTRODUCCIÓN A LA SEGURIDAD CIBERNÉTICA - En Cisco Networking Academy</figcaption>
           </figure>
 
-          <figure class="main-certificaciones__figure">
-            <img src="/certificaciones/cert-css.jpg" alt="Certificado en el Curso de Css">
-            <figcaption>CERTIFICADO DE CSS - En Sololearn</figcaption>
+          <figure class="flex flex-col">
+            <img src="/certificaciones/cert-js.jpg" alt="Certificado en el Curso de JavaScript" class="rounded-xl">
+            <figcaption class="text-center">CERTIFICADO DE JAVASCRIPT - En Sololearn</figcaption>
+          </figure>
+
+          <figure class="flex flex-col">
+            <img src="/certificaciones/cert-css.jpg" alt="Certificado en el Curso de Css" class="rounded-xl">
+            <figcaption class="text-center">CERTIFICADO DE CSS - En Sololearn</figcaption>
           </figure>
         </div>
       </section>
 
     </main>
-    <footer></footer>
+    <footer class="p-4">
+      <p class="text-center"><i>Luis Vicente Albarracin</i></p>
+    </footer>
   </body>
 </html>
