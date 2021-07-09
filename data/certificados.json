@@ -1,0 +1,43 @@
+[
+    {
+        "nombre": "Javascript",
+        "descripcion": "Curso de javascript",
+        "fecha": "31-Mayo-2019",
+        "ruta": "/certificaciones/cert-js.jpg",
+        "url": "",
+        "empresa": "Sololearn"
+    },
+    {
+        "nombre": "Ingenieria de Software",
+        "descripcion": "Curso de Fundamentos de Ingeniería de software",
+        "fecha": "23-Noviembre-2019",
+        "ruta": "/certificaciones/ingenieria_software.png",
+        "url": "",
+        "empresa": "App.co - Platzi"
+    },
+    {
+        "nombre": "CSS",
+        "descripcion": "Curso de CSS",
+        "fecha": "07/Julio/2019",
+        "ruta": "/certificaciones/cert-css.jpg",
+        "url": "https://www.sololearn.com/Certificate/1023-13197668/jpg",
+        "empresa": "Sololearn"
+    },
+    {
+        "nombre": "HTML",
+        "descripcion": "Curso de HTML",
+        "fecha": "16/Junio/2019",
+        "ruta": "/certificaciones/cert-html.jpg",
+        "url": "https://www.sololearn.com/Certificate/1014-13197668/jpg",
+        "empresa": "Sololearn"
+    },
+    {
+        "nombre": "PHP",
+        "descripcion": "Curso de PHP",
+        "fecha": "17/Mayo/2019",
+        "ruta": "/certificaciones/cert-php.jpg",
+        "url": "https://www.sololearn.com/Certificate/1059-13197668/jpg",
+        "empresa": "Sololearn"
+    }
+
+]

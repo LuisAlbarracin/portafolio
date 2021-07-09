@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Libro Campo",
+        "descripcion" : "El libro de campo 2016, le permite al agricultor programar, controlar y registrar las actividades que se realizan en la finca relacionadas al cultivo de palma de aceite.",
+        "lenguajes": "Java",
+        "estado": "Incompleto",
+        "repositorio": "https://github.com/LuisAlbarracin/LibroCampo",
+        "url": ""
+    },
+    {
+        "nombre": "Gestion Informes",
+        "descripcion": "",
+        "lenguajes": "",
+        "estado": "Incompleto",
+        "repositorio": "",
+        "url": ""
+    },
+    {
+        "nombre": "Libro Campo",
+        "descripcion" : "",
+        "lenguajes": "Java",
+        "estado": "Incompleto",
+        "repositorio": "",
+        "url": ""
+    },
+    {
+        "nombre": "Página para un periodico",
+        "descripcion" : "Ejemplo de página de un periodico escolar.",
+        "lenguajes": "HTML, CSS, Javascript",
+        "estado": "Terminado",
+        "repositorio": "https://github.com/LuisAlbarracin/ExamenWeb2001",
+        "url": "https://luisalbarracin.github.io/ExamenWeb2001/"
+    },
+    {
+        "nombre": "Mazo Cartas",
+        "descripcion" : "Ejercicio de programacion web 2021. Usando el Data LocalStorage",
+        "lenguajes": "HTML, CSS, Javascript",
+        "estado": "Terminado",
+        "repositorio": "https://github.com/LuisAlbarracin/EjercicioCartas",
+        "url": "https://luisalbarracin.github.io/EjercicioCartas/"
+    },
+    {
+        "nombre": "Juego Simon Dice",
+        "descripcion" : "Juego desarrollado en curso de javascript en platzi",
+        "lenguajes": "HTML, CSS, Javascript",
+        "estado": "Terminado",
+        "repositorio": "https://github.com/LuisAlbarracin/juegoSimonDice",
+        "url": "https://luisalbarracin.github.io/juegoSimonDice/"
+    }
+]
